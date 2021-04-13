@@ -3,7 +3,7 @@ Simplaws backend (change)
 
 
 Steps to use:
-1) Intall dependences
+1) Install dependences
 2) npm start
 
 Request structure:

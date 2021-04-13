@@ -18,8 +18,8 @@ module.exports = {
     // const Resp = content.googleResponse;
     // const Resp = fetchResults;
 
-    const response = content.googleResponse;
-    const values = { response };
+    const resp = content.googleResponse;
+    const values = { resp };
     return response.json(values);
   },
 };

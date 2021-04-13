@@ -12,8 +12,8 @@ Request structure
 }
 
 
-Returned structure
+Return structure
 {
   Resp:
-    {google results exact the same}
+    {google results}
 }

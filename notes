@@ -1,0 +1,19 @@
+Data structure
+
+content {
+  googleResponse: {}
+  fetchedWebsites: []
+  
+}
+
+Request structure
+{
+  Term: ""
+}
+
+
+Returned structure
+{
+  Resp:
+    {google results exact the same}
+}

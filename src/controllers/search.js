@@ -8,7 +8,7 @@ const useGoogleSearch = require("../utils/useGoogleSearch");
 
 module.exports = {
   async index(request, response) {
-    const { term } = request.body;
+    const { term } = request.query;
 
     const content = {};
 

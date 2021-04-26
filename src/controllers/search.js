@@ -9,17 +9,19 @@ const useGoogleSearch = require("../utils/useGoogleSearch");
 module.exports = {
   async index(request, response) {
     const { term } = request.query;
-
+    console.log("1");
+    console.log(term);
     const content = {};
 
     content.googleResponse = await useGoogleSearch(term);
-
+    console.log("2");
     //const fetchResults = await fetchWebsites(content);
     // const Resp = content.googleResponse;
     // const Resp = fetchResults;
 
     const resp = content.googleResponse;
     const values = { resp };
+    console.log(values);
     return response.json(values);
   },
 };
